@@ -1,0 +1,137 @@
+/* General Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    font-family: 'Caudex', serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 calc(33.33% - 1rem); /* Ensures three equal columns */
+    margin: 0.5rem;
+    text-align: left;
+}
+
+.footer-section h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #f4a261;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #f4a261;
+}
+
+/* Scroll-to-Top Button */
+.scroll-to-top {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.scroll-to-top button {
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.scroll-to-top button:hover {
+    background-color: white;
+    color: #f4a261;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #ddd;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* Responsive Design for All Screens */
+@media (max-width: 768px) {
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-section {
+        flex: 1 1 calc(33.33% - 1rem); /* Maintain three columns */
+        text-align: center; /* Center-align content for better readability */
+    }
+
+    .footer-section ul li a {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .footer-section {
+        flex: 1 1 calc(33.33% - 1rem); /* Three columns on small screens */
+        text-align: center; /* Center-align content */
+    }
+    
+.footer-section {
+    flex: 1 1 calc(33.33% - 1rem); /* Ensures three equal columns */
+    margin: 0.5rem;
+    text-align: left;
+}
+
+.footer-section h5 {
+    font-size: 1.rem;
+    margin-bottom: 1rem;
+    color: #f4a261;
+    font-family: Caudex;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 0.5rem 0;
+    
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    transition: color 0.3s;
+    font-family: Caudex;
+}
+}

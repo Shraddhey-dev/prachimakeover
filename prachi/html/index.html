@@ -1,0 +1,905 @@
+<html>
+    
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+       
+    <title>Document</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="../css/video.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/navbarnew.css">
+    <link rel="stylesheet" href="../css/marquee.css">
+    <link rel="stylesheet" href="../css/whatsappbutton.css">
+    <link rel="stylesheet" href="../css/popupform.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/slider.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="../css/testimonials.css">
+    <link rel="stylesheet" href="../css/brand.css">
+    <link rel="stylesheet" href="../css/bridalpkgs.css">  
+    <link rel="stylesheet" href="../css/audio.css">  
+    <link rel="stylesheet" href="../css/contactus.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/feedback.css">
+    <link rel="stylesheet" href="../css/eg.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/about.css">  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Bodoni+Moda:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    
+</head>
+<body>
+        <nav>
+            <img src="../images/logo.png"  > 
+            <!-- Logo -->
+            <h1 style="font-family: 'Kaushan', cursive;font-size: 30px; padding-right: 62px; color: #ffffff; text-transform: capitalize; letter-spacing: 2px;">Prachi Makeover</h1>
+            
+
+            <!-- Hamburger Menu Icon -->
+            <div class="hamburger-menu" id="hamburger">
+                &#9776;
+            </div>
+    
+            <!-- Navigation Links -->
+            <ul id="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#services">Our Services <span class="arrow"></span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#Party">Party Orders</a></li>
+                        <li><a href="#Event">Event Orders</a></li>
+                        <li><a href="#Airbrush">HD and Airbrush</a></li>
+                        <li><a href="#Photoshoots">Photoshoots</a></li>
+                        <li><a href="#Special">Special Occasion</a></li>
+                        <li><a href="#Trials">Consultation & Trial</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#BridalPackages">Bridal Packages <span class="arrow"></span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#silver">Silver Light Bride</a></li>
+                        <li><a href="#golden">Golden Kiss Bride</a></li>
+                        <li><a href="#platinum">Platinum Queen Bride</a></li>
+                        <li><a href="#ultimate">Ultimate Queen Bride</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Brands">Brands We Use</a></li>
+                <li><a href="#Testimonials">Testimonials</a></li>
+                <li><a href="#HappyClients">Happy Clients</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+            </ul>
+        </nav>
+        
+                <section  id="slider">
+            <label id="slide1"><img src="../images/slider-imgs/first.jpeg" alt=""></label>
+            <label id="slide2"><img src="../images/slider-imgs/second.jpeg" alt=""></label>
+            <label id="slide3"><img src="../images/slider-imgs/third.jpeg" alt=""></label>
+            <label id="slide4"><img src="../images/slider-imgs/fourth.jpeg" alt=""></label>
+            <label id="slide5"><img src="../images/slider-imgs/fifth.jpeg" alt=""></label>
+     </section>
+     
+     <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <br>
+
+     <!-- <script src="../javascript/slider.js"></script> -->
+
+           <h1 style="font-family: caudex;font-size: 20px;text-align: center;margin-top: -15px;">"Your Special Day Deserves Perfection"</h1>
+          
+           <button style="font-family: Caudex; align-items: center;" id="bookNowBtn" class="button">Book Now</button> 
+           <!-- <button style="font-family: Caudex; align-items: center;" id="bookNowBtn" class="button">Book Now</button> -->
+
+           <div id="popup" class="popup hidden">
+               <div class="popup-content">
+                   <button id="closePopupBtn" class="close-button" aria-label="Close popup">x</button>
+                   <center><h1 style="font-family: Caudex; font-size: 25;">Book Your Appointment</h1></center>
+           
+                   <form id="bookingForm" action="../php/form.php" method="POST">
+                      
+                       <!-- <input type="hidden" name="subject" value="New Booking Submission"> -->
+           
+                       <div class="form-group">
+                           <label for="name" style="color: black;"></label>
+                           <input type="text" id="name" name="name" placeholder="Your Name" required>
+                       </div>
+           
+                       <div class="form-group">
+                           <label for="email" style="color: black;"></label>
+                           <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                       </div>
+           
+                       <div class="form-group">
+                        <label for="date" style="color: black;"></label>
+                        <input type="text" id="date" name="date" placeholder="Booking Date" required>
+                    </div>
+           
+                       <div class="form-group">
+                           <label for="number" style="color: black;"></label>
+                           <input type="tel" id="number" name="number" placeholder="Your Phone Number" required>
+                       </div>
+           
+                       <div class="form-group">
+                           <label for="message" style="color: black;"></label>
+                           <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                       </div>
+           
+                       <button type="submit" class="submit-button">Submit Booking</button>
+                   </form>
+           
+                  
+               </div>
+           </div>
+           <div id="successPopup" class="hidden">
+            <div class="popup-content">
+                <p>Your form has been successfully submitted!We will contact you as soon as possible</p>
+                <button id="closeSuccessPopup">Close</button>
+            </div>
+        </div>
+    <script>
+        // Initialize a custom date format for text input
+        document.getElementById("date").addEventListener("focus", function() {
+            this.type = "date"; // Change to date input when focused
+        });
+    
+        document.getElementById("date").addEventListener("blur", function() {
+            if (!this.value) {
+                this.type = "text"; // Revert back to text input if no value
+            }
+        });
+    </script>
+
+
+   
+        <marquee style="font-family: Playfair Display;" behavior="scroll" direction="left" >
+            5% off on any birdal package via our website| New makeup services available! Check them out! | Sale on Bridal Makeup | Discount on New year Offer | Follow us on social media Platform.
+        </marquee>
+
+<br><br>
+<div class="social-icons-mobile">
+    <a href="https://www.instagram.com/prachimakeoverhairstylist?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="  class="social-icon instagram"></a>
+    <a href="https://www.facebook.com/prachimakeover" class="social-icon facebook"></a>
+</div>
+
+
+<div id="services" ></div><br>
+        <section>
+            <center>
+                <P>
+                <h1  style="font-family: Playfair Display; font-size: 35px;">Our Services</h1>
+            </P></center>
+           <h id="Party"></h>
+            <div id="Party"  class="row">
+                <div  class="column">
+                    <div class="card">
+                        <h3 style="font-family: Playfair Display;font-size: 25px;">Party  Orders</h3>
+                        <p id="Party"style="font-family: Caudex;">Get ready to turn heads at any celebration! Whether you're attending a birthday party, an anniversary, or a special gathering, our party order makeup service is designed to enhance your natural beauty while giving you a glamorous, party-ready look. We offer personalized makeup that suits your style and the theme of the event, ensuring you shine with confidence throughout the night..</p>
+                    </div>
+                </div>
+                <h id="Event"></h>   
+                <div class="column">
+                    <div class="card">
+                        <h3 id="Event" style="font-family: Playfair Display; font-size: 25px;">Event Orders</h3>
+                        <p style="font-family: Caudex;">From corporate events to galas and formal functions, our event order makeup service provides sophisticated and elegant looks tailored to the occasion. Whether you need a classic, polished style or something bold and striking, our team will ensure you are camera-ready and leave a lasting impression. Perfect for awards nights, charity events, or even red carpet moments.</p>
+                    </div>
+                </div>
+                <h id="Airbrush"></h>
+                <div class="column">
+                    <div class="card">
+                        <h3 id="Airbrush" style="font-family: Playfair Display;font-size: 20px;">HD and Airbrush Makeup</h3>
+                        <p style="font-family: Caudex;">Experience flawless perfection with our HD and airbrush makeup services. Ideal for weddings, photoshoots, and special occasions, these techniques provide a smooth, even finish that lasts all day. Airbrush makeup is particularly great for brides and on-camera appearances, as it feels weightless and looks incredible under any lighting.</p>
+                    </div>
+                </div> 
+                <h id="Photoshoots"></h>
+                <div id="Photoshoots" class="column">
+                    <div class="card">
+                        <h3  style="font-family: Playfair Display;font-size: 25px;">Phototshoots</h3>
+                        <p style="font-family: Caudex;">For photoshoots, video shoots, or film productions, our shooting orders makeup service delivers flawless, long-lasting looks that are ideal for both on-camera and behind the scenes moments. We specialize in makeup that enhances features under various lighting conditions . Whether it's a fashion shoot or normal shoot , we'll help you achieve the perfect look for every frame.</p>
+                    </div>
+                </div>
+                <h id="Special"></h>
+                <div class="column">
+                    <div class="card">
+                        <h3 id="Special" style="font-family: Playfair Display;font-size: 20px;">Special Occasion Makeup</h3>
+                        <p style="font-family: Caudex;">For life,s biggest moments, our special occasion makeup services bring out your best self. From prom nights and galas to award ceremonies and red-carpet appearances, we design elegant, show-stopping looks that turn heads. This service is all about indulgence, so sit back and let us craft a masterpiece that matches your outfit and occasion.</p>
+                    </div>
+                </div>
+                <h id="Trials"></h>
+                <div class="column">
+                    <div class="card">
+                        <h3 id="Trials" style="font-family: Playfair Display;font-size: 20px;">Makeup Consultations and Trials</h3>
+                        <p style="font-family: Caudex;">Not sure what look suits you best? Our makeup consultations and trials help you explore options and finalize the perfect style for your upcoming event. We consider your preferences, facial features, and outfit to create a harmonious look tailored specifically to you. Perfect for brides and clients preparing for major events, these sessions ensure you feel confident and prepared.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+<center>
+    <div class="video-container" class="video-wrapper">
+        <div class="zigzag-top"></div>
+        <video autoplay muted loop>
+            <source src="../images/video1.mp4" type="video/mp4">
+        </video>
+        <div class="zigzag-bottom"></div>
+       
+        <button class="audio-btn" id="audioBtn">
+            <i class="fas fa-volume-up"></i> 
+          </button>
+    </div><br>
+   <h1 style="font-family: Caudex;font-size: 25px;width: 95%;">"Confidence is the best accessory any bride can wear, and our makeup helps you wear it well."</h1>
+           
+</center> 
+
+<section class="no-gap" id="BridalPackages"></section>
+<h2  style="font-family: Caudex; font-size: 30px;"> Best Bridal Packages</h2>
+<div  id="Silver"class="container-wrapper">
+  <div class="container-pkg1">
+    <div class="photopkg">
+      <img src="../images/testimonials/eight.jpeg">
+    </div>
+    <div  class="descriptionpkg">
+      <h5  style="font-family:  Pacifico; font-size: 17px;">Silver Light Bride</h5>
+      <h5  style="font-family: Caudex;font-size: 15px;">Bridal Makeup<br>Hairstyling<br>Saree Drapping<br> -(1 sitting)<br><br>
+        <!-- <button style="font-size: 14px;"class="whatsapp-btn"  onclick="openWhatsApp()">Know More</button> -->
+
+      </h5>
+    </div>
+  </div >
+
+  <div  id="Golden" class="container-pkg2">
+    <div class="photopkg">
+      <img src="../images/testimonials/ten.jpeg">
+    </div>
+    <div class="descriptionpkg">
+      <h  style="font-family: Pacifico; font-size: 19px;">Golden Kiss Bride</h1><br>
+      <h style="font-family: Caudex;font-size: 12.5px;">Free Bridal Hairstyle Trial<br>HD Bridal Makeup<br>Faux Lash<br>Bridal Dressing<br>Brow Design<br>-(1 sitting)<br><br>
+        <!-- <button style="font-size: 14px;"class="whatsapp-btn" onclick="openWhatsApp()">Know More</button> -->
+    </h1>
+    </div>
+  </div>
+
+  <div id="Platinum" class="container-pkg3">
+    <div class="photopkg">
+      <img src="../images/four.jpeg">
+    </div>
+    <div class="descriptionpkg3">
+      <h id="platinum" style="font-family: Pacifico; font-size: 16px;align-items: center;">Platinum Queen Bride</h2><br>
+      <h  style="font-family: Caudex;font-size: 11px;">Free Bridal Hairstyle Trial<br>HD Bridal Makeup<br>Facial and Bleach according to face type<br>Hair Oil Massage<br>Full Hand and Full Leg Wax<br>Manicure and Pedicure<br>Eyebrow and Upperlips<br>Bridal Dressing<br>-(1 sitting)<br><br>
+        <!-- <button  style="font-size: 12px;"class="whatsapp-btn" onclick="openWhatsApp()">Know More</button> -->
+    </h1>
+    </div>
+  </div>
+  
+  <div id="Ultimate" class="container-pkg4">
+    <div class="photopkg">
+      <img src="../images/two.jpeg">
+    </div>
+    <div class="descriptionpkg4">
+      <h5 id="ultimate" style="font-family: Pacifico; font-size: 15px;">Ultimate Queen Bride</h5>
+      <h5  style="font-family: Caudex; font-size: 10.5px;">Free Bridal Hairstyle Trial<br>HD Bridal Makeup (2 sittings)<br>Bridal Hairstyle (2 sittings)<br>Facial and Bleach according to face type<br>Body Polish<br>Lash Extensions<br>Full Hand and Full Leg Wax<br>Manicure and Pedicure<br>Bridal Dressing<br>Brow Design<br>Eyebrow and Upperlips<br>-(1 sitting)<br><br>
+        <!-- <button  style="font-size: 12px;"class="whatsapp-btn" onclick="openWhatsApp()">Know More</button> -->
+    </h5>
+    </div>
+  </div>
+</div>
+<br><br><div  id="HappyClients"></div><br>
+    <section ></section>
+    <h2  style="font-family: Caudex; font-size: 22px;">Happy Clients & their Feedbacks</h2>
+    <div class="containerfeedback">
+       <div class="feedback-section">
+            <div class="feedback-card">
+                <img src="../images/one.jpeg" alt="Customer 1">
+                <div class="feedback-card-content">
+                   
+                    <div class="stars">
+                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="font-family: Caudex;">"I couldn't be happier with the Platinum Queen Bride package. The HD makeup and extra pampering, like the manicure and waxing, made me feel confident and beautiful. My look lasted all day!"</p>
+                </div>
+            </div>     
+            <div class="feedback-card">
+                <img src="../images/five.jpeg" alt="Customer 5">
+                <div class="feedback-card-content">
+                  
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="font-family: Caudex;">"The Platinum Queen Bride package was worth every penny! I felt pampered from head to toe, and the bridal dressing was impeccable. My skin glowed, and the attention to detail was incredible. Thank you for making my day so special!"
+                    </p>
+                </div>
+            </div>
+            <div class="feedback-card">
+                <img src="../images/six.jpeg" alt="Customer 6">
+                <div class="feedback-card-content">
+                  
+                    <div class="stars">
+                       <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="font-family: Caudex;">"Choosing the Silver Light Bride package was the best decision for my wedding day. The makeup and hairstyling were on point, and I felt absolutely stunning. It was a perfect, effortless look that made me feel like the best version of myself!"
+                    </p>
+                </div>
+            </div>
+            <div class="feedback-card">
+                <img src="../images/seventh.jpeg" alt="Customer 7">
+                <div class="feedback-card-content">
+                  
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                    </div>
+                    <p style="font-family: Caudex;">"I felt absolutely stunning with the Ultimate Queen Bride package! The extra care, from the facial to the lash extensions, made me feel flawless. My makeup was perfect all day long!"
+                    </p>
+                </div>
+            </div>
+            <div class="feedback-card">
+                <img src="../images/eight.jpeg" alt="Customer 8">
+                <div class="feedback-card-content">
+                  
+                    <div class="stars">
+                       <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="font-family: Caudex;">"I loved the Golden Kiss Bride package! The bridal hairstyle trial made me confident about my wedding day look, and the HD makeup lasted through the whole celebration. The faux lashes were a gorgeous touch!"
+                    </p>
+                </div>
+            </div>
+            <div class="feedback-card">
+                <img src="../images/nine.jpeg" alt="Customer 9">
+                <div class="feedback-card-content">
+                   <div class="stars">                       
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="font-family: Caudex;">"Opting for the Golden Kiss Bride package was the best choice I made! The HD makeup gave me a radiant, flawless look, and the free hairstyle trial helped me feel confident in my style. With the added faux lashes, I felt truly beautiful and ready to shine on my special day!"
+                  
+                </div>
+            </div>
+        </div>
+    </div>    
+   
+   <div id="Testimonials" class="testimonials-section">
+    <h2  class="testimonials-title">Testimonials</h2>
+    <p class="testimonials-description">"Transforming visions into reality - our clients' smiles are the true reflection of our passion and expertise."</p>
+  </div>   <div class="photo-gallery">
+    <div class="photo-container">
+        <img src="../images/testimonials/one.jpeg" alt="Client Makeup Photo 1">
+    </div>
+    <div class="photo-container">
+        <img src="../images/testimonials/two.jpeg" alt="Client Makeup Photo 2">
+    </div>
+    <div class="photo-container">
+        <img src="../images/testimonials/three.jpeg" alt="Client Makeup Photo 3">
+    </div>
+    <div class="photo-container">
+        <img src="../images/testimonials/four.jpeg" alt="Client Makeup Photo 4">
+    </div>
+    <div class="photo-container">
+        <img src="../images/testimonials/five.jpeg"alt="Client Makeup Photo 5">
+    </div>
+    <div class="photo-container">
+        <img src="../images/testimonials/six.jpeg" alt="Client Makeup Photo 6">
+    </div>
+    <div class="photo-container">
+        <img src="../images/testimonials/seven.jpeg" alt="Client Makeup Photo 7">
+    </div>
+    <div class="photo-container">
+        <img src="../images/testimonials/eight.jpeg" alt="Client Makeup Photo 8">
+    </div>
+    <div class="photo-container">
+        <img src="../images/ten.jpeg" alt="Client Makeup Photo 9">
+    </div>
+    
+    <div class="photo-container">
+        <img src="../images/testimonials/ten.jpeg" alt="Client Makeup Photo 11">
+    </div>
+    <br>
+    
+</div><br>
+<section id="Brands" class="brands-section">
+    <h2 class="brands-title">Brands We Use</h2>
+    <p class="brands-description">We proudly use products from top makeup companies to ensure quality and excellence in every application.</p>
+    <br><div class="brand-collage-container">
+        <img src="../images/brandslogo.jpeg" alt="Collection of Beauty Brands" class="brand-collage">
+      </div>
+</section>
+  <div id="about"></div><br>
+   <div class="about-header">
+    <h1  style="font-family: Caudex; font-size: 35px;">About Us</h1>
+    <p  style="font-family: Caudex; font-size: 18px; margin: 0 auto;">Discover our passion for beauty and the art of makeup.</p>
+</div>
+
+<div class="about-container">
+    <div class="about-content">
+        <div class="about-section">
+            <img src="../images/ab1.jpeg" alt="Who We Are">
+            <h2 style="font-family: Caudex;">Who We Are</h2>
+            <p style="font-family: Caudex;">We are dedicated makeup artists committed to enhancing natural beauty and boosting confidence. With a creative approach and attention to detail, we bring your vision to life for every special moment.</p>
+        </div>
+        <br>
+        <div class="about-section">
+            <img src="../images/ab2.jpeg" alt="Our Mission">
+            <h2 style="font-family: Caudex;">Our Mission</h2>
+            <p style="font-family: Caudex;">Our mission is to transform and empower individuals by providing exceptional makeup artistry. We aim to make every client feel unique, beautiful, and celebrated.</p>
+        </div>
+        <br>
+        <div class="about-section">
+            <img src="../images/aboutme.jpg" alt="Our Vision">
+            <h2 style="font-family: Caudex;">Our Vision</h2>
+            <p style="font-family: Caudex;">Our vision is to redefine beauty through innovative techniques and personalized artistry, inspiring confidence and creating timeless memories for every occasion.</p>
+        </div>
+    </div>
+</div>
+ </section>
+    <section id="contact-us" id="contact">
+        <div class="containercontactus">
+          <h2 class="section-title"  style="font-family: Caudex; font-size: 35px;">Contact Us</h2>
+          <p style=" font-size: 18px;font-family: Caudex;" class="section-description">We'd love to hear from you! Whether you have questions, want to book a service, or just want to say hello, we're here to assist you.</h3>
+    
+          <div class="contact-info">
+            <div class="contact-item">
+              Phone</h3><br>
+               Call us at: <strong><a href="tel:+918208295842" class="phone-link">8208295842</a></strong> <i class="fas fa-phone-alt"></i></p>
+            </div><br>
+            <div class="contact-item">
+              
+              <i class="fas fa-envelope"></i> &nbsp Email us: <br><strong><a href="mailto:prachipawar3012@gmail.com">prachipawar3012
+                @gmail.com</a></strong></h3>
+            </div><br>
+            <div class="contact-item">
+              Social Media</h3><br>
+              <i class="fas fa-share-alt"></i>&nbsp Connect with us on social media:</h3>
+              <ul class="social-links">
+                <li><a style=" font-size: 18px;"href="https://www.instagram.com/prachimakeoverhairstylist?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" </i> INSTAGRAM</a>
+                <li> <a style=" font-size: 18px;"href="https://www.facebook.com/prachimakeover" ></i> FACEBOOK</a>
+                <li><a style=" font-size: 18px;"href="https://wa.me/+91 8208295842"></i> WHATSAPP</a>     
+              </ul>
+            </div>
+          </div>
+    
+          <h4 style="font-family: Caudex; font-size: 20px;">Feel Free to Send Us a Message</h4>
+          <br>
+          <form id="contact-form" action="../php/contactform.php" method="POST">
+            <input style="font-size: 18px;" type="text" name="name" placeholder="Your Name" required>
+            <input style="font-size: 18px;" type="email" name="email" placeholder="Your Email" required>
+            <textarea style="font-size: 18px;" name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button style="font-family: Caudex; font-size: 18px;" type="submit">Send Message</button>
+          </form>
+          
+          <!-- Success Popup -->
+          <div id="successPopup" class="popup hidden">
+            <div class="popup-contentcontact">
+              <button id="closeSuccessPopup" class="close-button">x</button>
+              <h2>Thank You!</h2>
+              <p>Your message has been successfully submitted. We will get back to you soon.</p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      
+
+    <a href="https://wa.me/918208295842"  id="whatsapp-button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a><br>
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Services Section -->
+            <div class="footer-section">
+                <h5>Services</h5>
+                <ul>
+                    <li><a href="#Party">Party Orders</a></li>
+                    <li><a href="#Event">Event Orders</a></li>
+                    <li><a href="#Airbrush">HD and Airbrush Makeup</a></li>
+                    <li><a href="#Photoshoots">Photoshoots</a></li>
+                    <li><a href="#Special">Special Occasion Makeup</a></li>
+                    <li><a href="#Trials">Makeup Consultations and Trials</a></li>
+                </ul>
+            </div>
+    
+            <!-- Bridal Packages Section -->
+            <div class="footer-section">
+                <h5>Bridal Packages</h5>
+                <ul>
+                    <li><a href="#silver">Silver Light Bride</a></li>
+                    <li><a href="#golden">Golden Kiss Bride</a></li>
+                    <li><a href="#platinum">Platinum Queen Bride</a></li>
+                    <li><a href="#ultimate">Ultimate Queen Bride</a></li>
+                </ul>
+            </div>
+    
+            <!-- About and Contact Section -->
+            <div class="footer-section">
+                <h5>About & Contact</h5>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                    <li><a href="#HappyClients">Happy Clients</a></li>
+                    <li><a href="#Testimonials">Testimonials</a></li>
+                    <li><a href="#Brands">Brands we use</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Scroll to Top Button -->
+        <div class="scroll-to-top">
+            <button onclick="scrollToTop()">Scroll to Top</button>
+        </div>
+    
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <h style="font-family: Caudex;font-size: 16px;">&copy; 2024 PRACHI MAKEOVER & HAIRSTYLIST. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script>// Toggle Dropdown Menus
+       // Toggle Dropdown Menus
+document.querySelectorAll('.dropdown > a').forEach(dropdownToggle => {
+    dropdownToggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        const dropdownContent = this.nextElementSibling;
+
+        // Close all other dropdowns
+        document.querySelectorAll('.dropdown-content').forEach(content => {
+            if (content !== dropdownContent) {
+                content.classList.remove('active');
+            }
+        });
+
+        // Toggle current dropdown
+        if (dropdownContent) {
+            dropdownContent.classList.toggle('active');
+        }
+    });
+});
+
+// Close dropdowns when clicking outside
+document.addEventListener('click', function (e) {
+    if (!e.target.closest('.dropdown')) {
+        document.querySelectorAll('.dropdown-content.active').forEach(content => {
+            content.classList.remove('active');
+        });
+    }
+});
+
+// Toggle Mobile Menu
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', function () {
+    navLinks.classList.toggle('active');
+});
+
+// Close Mobile Menu when clicking outside
+document.addEventListener('click', function (e) {
+    if (!e.target.closest('#nav-links') && !e.target.closest('#hamburger')) {
+        navLinks.classList.remove('active');
+    }
+});
+
+// Smooth Scroll with Correct Offset
+document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+            const navbarHeight = document.querySelector('nav').offsetHeight; // Get navbar height
+            const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = elementPosition - navbarHeight; // Subtract navbar height
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth',
+            });
+        }
+    });
+});
+
+    </script>
+    
+
+    <div id="successPopup" class="hidden">
+        <div class="popup-content">
+            <p style="font-family: Caudex;">Your form has been successfully submitted! We will contact you as soon as possible</p>
+            <button id="closeSuccessPopup">Close</button>
+        </div>
+    </div>
+
+<script>
+/*  ------------------------------------    popup form script -------------------------------------------------------------------*/
+
+
+        // Show modal when "Book Now" button is clicked
+        const modal = document.getElementById("popup");
+        const openModalBtn = document.getElementById("bookNowBtn");
+        const closeModalBtn = document.getElementById("closePopupBtn");
+    
+        openModalBtn.onclick = function () {
+            modal.classList.remove("hidden");
+        }
+    
+        // Close the modal when the "x" button is clicked
+        closeModalBtn.onclick = function () {
+            modal.classList.add("hidden");
+        }
+    
+        // Handle form submission and check for data submission
+        const form = document.getElementById("bookingForm");
+        form.onsubmit = function (event) {
+            event.preventDefault();  // Prevent default form submission to check data submission
+    
+            // Log form data for debugging
+            console.log('Form Data: ', new FormData(form));
+    
+            // After form submission, reset and close modal
+            modal.classList.add("hidden");
+    
+            // Show success message (assuming success popup logic exists)
+            alert("Form Submitted Successfully!We will contact you as soon as possible");  // Replace with success popup if you have one
+    
+            // Send form data to server using AJAX (if required, otherwise just submit the form)
+            const formData = new FormData(form);
+            fetch('../php/form.php', {
+                method: 'POST',
+                body: formData,
+            })
+            .then(response => response.json()) // Assuming server returns JSON response
+            .then(data => {
+                console.log(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    
+// -----------------------------------------------------------------------------------
+
+        // Success popup logic
+const successPopup = document.getElementById("successPopup");
+const closeSuccessPopup = document.getElementById("closeSuccessPopup");
+
+form.onsubmit = function (event) {
+    event.preventDefault();  // Prevent default form submission
+
+    // Show success popup
+    successPopup.classList.remove("hidden");
+
+    // Close modal
+    modal.classList.add("hidden");
+
+    // Send form data to server using AJAX (if needed)
+    const formData = new FormData(form);
+    fetch('../php/form.php', {
+        method: 'POST',
+        body: formData,
+    })
+    .then(response => response.json()) // Assuming server returns JSON response
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+};
+
+// Close success popup when the button is clicked
+closeSuccessPopup.onclick = function () {
+    successPopup.classList.add("hidden");
+};
+
+
+/*  ------------------------------------------------    slider -------------------------------------------------------------------*/         
+   
+const slides = document.querySelectorAll('#slider label');
+        const dots = document.querySelectorAll('.dot'); // Select dots
+        const totalSlides = slides.length;
+        let currentSlideIndex = 0;
+        
+        // Function to update slides
+        function updateSlides() {
+            slides.forEach((slide, index) => {
+                slide.classList.remove('active', 'next', 'next-next', 'prev', 'prev-prev');
+                if (index === currentSlideIndex) {
+                    slide.classList.add('active');
+                } else if (index === (currentSlideIndex + 1) % totalSlides) {
+                    slide.classList.add('next');
+                } else if (index === (currentSlideIndex + 2) % totalSlides) {
+                    slide.classList.add('next-next');
+                } else if (index === (currentSlideIndex - 1 + totalSlides) % totalSlides) {
+                    slide.classList.add('prev');
+                } else if (index === (currentSlideIndex - 2 + totalSlides) % totalSlides) {
+                    slide.classList.add('prev-prev');
+                }
+            });
+        
+            // Update dots
+            dots.forEach((dot, index) => {
+                dot.classList.remove('active');
+                if (index === currentSlideIndex) {
+                    dot.classList.add('active');
+                }
+            });
+        }
+        
+        // Function to start the auto slider
+        function startAutoSlider() {
+            setInterval(() => {
+                currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
+                updateSlides();
+            }, 3000); // Adjust the interval as needed
+        }
+        
+        // Add click events to dots
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlideIndex = index; // Update the slide index when a dot is clicked
+                updateSlides(); // Update slides and dots
+            });
+        });
+        
+        // Initialize the slider
+        updateSlides();
+        startAutoSlider();
+  /*  ---------------------------------------- whatsapp float button  -------------------------------------------------------------------*/    
+  
+  window.addEventListener('scroll', function() {
+    var whatsappButton = document.getElementById('whatsapp-button');
+    
+    
+    if (window.scrollY < 400) {
+        whatsappButton.style.opacity = '0';
+        whatsappButton.style.visibility = 'hidden';
+    } else {
+      
+        whatsappButton.style.opacity = '1';
+        whatsappButton.style.visibility = 'visible';
+    }
+});
+   /*  ---------------------------------------- audio button for video  -------------------------------------------------------------------*/ 
+
+
+
+ // Create a new audio element
+const audio = new Audio('../images/audio1.mpeg');
+audio.loop = true; // Optional: Loop the audio
+audio.muted = true; // Set audio to be muted by default
+
+// Get the button element
+const audioBtn = document.getElementById('audioBtn');
+
+// Set the button icon to "muted" initially
+audioBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
+
+// Create the "Press to unmute" message
+const message = document.createElement('div');
+message.className = 'audio-message';
+message.textContent = 'Press to unmute';
+document.body.appendChild(message);
+
+// Position the message near the button
+const positionMessage = () => {
+  const rect = audioBtn.getBoundingClientRect();
+  message.style.top = `${rect.bottom + window.scrollY + 10}px`; // Position below the button
+  message.style.left = `${rect.left + window.scrollX}px`; // Align with the button
+};
+positionMessage();
+window.addEventListener('resize', positionMessage);
+
+// Add click event listener to toggle play/mute
+audioBtn.addEventListener('click', function () {
+  if (audio.paused || audio.muted) {
+    // Play and unmute the audio
+    audio.play();
+    audio.muted = false;
+    audioBtn.innerHTML = '<i class="fas fa-volume-up"></i>'; // Change icon to volume-up
+  } else {
+    // Mute the audio
+    audio.muted = true;
+    audioBtn.innerHTML = '<i class="fas fa-volume-mute"></i>'; // Change icon to volume-mute
+  }
+
+  // Hide the message when the button is clicked
+  message.style.opacity = '0'; // Fade out
+  setTimeout(() => message.remove(), 500); // Remove from DOM after fade-out
+});
+
+
+  /*  ---------------------------------------- whatsapp button  -------------------------------------------------------------------*/    
+  
+    function openWhatsApp() {
+        // Replace with your actual WhatsApp number in international format
+        const phoneNumber = '918208295842';  // Your WhatsApp number without any symbols
+
+        // WhatsApp URL format
+        const url = `https://wa.me/${phoneNumber}`;
+
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        // On mobile, open the WhatsApp app
+        window.location.href = url;
+    } else {
+        // On desktop, open WhatsApp Web in a new tab
+        window.open(url);
+    }
+}
+ /*  ---------------------------------------- contact form bottom  -------------------------------------------------------------------*/    
+  
+ document.getElementById("contact-form").addEventListener("submit", function (event) {
+  event.preventDefault(); // Prevent default form submission
+
+  const formData = new FormData(this);
+
+  fetch("../php/contactform.php", {
+    method: "POST",
+    body: formData,
+  })
+    .then((response) => response.text())
+    .then((data) => {
+      if (data.trim() === "success") {
+        // Show success popup
+        const successPopup = document.getElementById("successPopup");
+        successPopup.classList.remove("hidden");
+
+        // Reset the form
+        document.getElementById("contact-form").reset();
+      } else {
+        alert("There was an error. Please try again.");
+      }
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      alert("An unexpected error occurred.");
+    });
+});
+
+// Close popup when the close button is clicked
+document.getElementById("closeSuccessPopup").addEventListener("click", function () {
+  const successPopup = document.getElementById("successPopup");
+  successPopup.classList.add("hidden");
+});
+
+// Close success message when the button is clicked
+document.getElementById("closeSuccessMessage").addEventListener("click", function() {
+  const successMessage = document.getElementById("successMessage");
+  successMessage.classList.add("hidden");
+});
+
+     
+/*  ---------------------------------------- SCROLLL TO TOP  -------------------------------------------------------------------*/    
+  
+        function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+//  /--------------------------navbar---------------------/       
+
+    document.getElementById('hamburger').addEventListener('click', () => {
+        const navLinks = document.getElementById('nav-links');
+        navLinks.classList.toggle('active');
+    });
+    
+
+</script>
+</body>
+</html>
+    

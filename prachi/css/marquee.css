@@ -1,0 +1,46 @@
+marquee {
+    background-color:  rgb(255, 255, 255); /* Green background */
+    color: rgb(13, 13, 13); /* White text */
+    font-size: 20px; /* Increased font size */
+    padding: 15px 0; /* Padding around the text */
+    box-shadow: 0 4px 15px  rgb(255, 254, 178); /* Shadow effect */
+    border-radius: 5px; /* Rounded corners */
+    margin: 20px 0; /* Margin above and below the marquee */
+    position: relative; /* Required for positioning */
+    animation: glowing 1.5s infinite alternate; /* Glowing effect */
+    z-index: -1;
+}
+
+/* Keyframes for glowing effect */
+@keyframes glowing {
+    0% {
+        box-shadow: 0 4px 15px rgba(155, 152, 155, 0.5); /* Lighter shadow */
+    }
+    100% {
+        box-shadow: 0 4px 30px rgb(255, 254, 178); /* Stronger shadow */
+    }
+}
+
+
+@media (max-width: 455px) {
+    marquee {
+        margin-top: 80px;
+        font-size: 46px; /* Even smaller font size for mobile */
+        padding: 10px 0; /* Further adjust padding */
+    }
+    marquee {
+        background-color:  rgb(255, 255, 255); /* Green background */
+        color: rgb(13, 13, 13); /* White text */
+        font-size: 15px; /* Increased font size */
+        padding: 15px 0; /* Padding around the text */
+        box-shadow: 0 4px 15px  rgb(255, 254, 178); /* Shadow effect */
+        border-radius: 5px; /* Rounded corners */
+        margin: 20px 0; /* Margin above and below the marquee */
+        position: relative; /* Required for positioning */
+        animation: glowing 1.5s infinite alternate; /* Glowing effect */
+        z-index: -1;
+    }
+}
+
+
+
