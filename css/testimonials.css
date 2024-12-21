@@ -1,0 +1,108 @@
+.testimonials-section {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .testimonials-title {
+    font-family: 'Caudex', serif;
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials-description {
+    font-size: 18px;
+    font-family: 'Caudex', serif;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: -40;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    flex-wrap: nowrap; /* Changed to nowrap for mobile view */
+    overflow-x: auto; /* Added for horizontal scrolling on mobile */
+    padding: 20px;
+  }
+  
+  .photo-container {
+    flex: 0 0 90%; /* Changed from 100% to 90% */
+    max-width: 90%; /* Changed from 100% to 90% */
+    aspect-ratio: 3 / 4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto; /* Added to center the container */
+    margin-right: 20px; /* Keep the existing right margin */
+  }
+  
+  .photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Changed from cover to contain */
+    display: block;
+  }
+
+  
+  
+  @media (min-width: 769px) {
+    .photo-gallery {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .photo-container {
+      flex: 1 1 calc(22.5% - 20px); /* Changed from 25% to 22.5% (90% of 25%) */
+      max-width: calc(22.5% - 20px); /* Changed from 25% to 22.5% (90% of 25%) */
+      aspect-ratio: 3 / 4; /* Maintain the taller aspect ratio */
+      margin-right: 20px; /* Added margin for spacing */
+    }
+  }
+  .photo-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 6px; /* Added gap for consistent spacing */
+  }
+  
+  .photo-container {
+    flex: 0 0 90%;
+    max-width: 90%;
+    aspect-ratio: 3 / 4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  
+  /* Tablet view */
+  @media (min-width: 768px) {
+    .photo-gallery {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .photo-container {
+      flex: 0 0 calc(45% - 10px);
+      max-width: calc(45% - 10px);
+    }
+  }
+  
+  /* Desktop view */
+  @media (min-width: 1024px) {
+    .photo-container {
+      flex: 0 0 calc(18% - 16px); /* 5 photos per row, accounting for gap */
+      max-width: calc(18% - 16px);
+    }
+  }
+  
+  

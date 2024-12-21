@@ -1,0 +1,163 @@
+/* Global Responsive Fixes */
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+} */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container Fixes */
+.container, 
+.containercontactus, 
+.containerfeedback,
+.container-wrapper,
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Navbar Fixes */
+.navbar {
+  width: 100%;
+  padding: 10px 15px;
+ 
+}
+
+
+/* Services Section Fixes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.column {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+/* Bridal Packages Fixes */
+.container-pkg1, 
+.container-pkg2, 
+.container-pkg3, 
+.container-pkg4 {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Feedback Section Fixes */
+/* .feedback-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feedback-card {
+  width: 100%;
+} */
+
+/* About Us Section Fixes */
+.containerab {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photoab,
+.descriptionabout {
+  width: 100%;
+}
+
+/* Contact Us Section Fixes */
+#contact-us {
+  width: 100%;
+}
+
+/* Footer Fixes */
+/* .footer {
+  width: 100%;
+} */
+
+/* Media Queries */
+@media (min-width: 576px) {
+  /* .column {
+      flex: 0 0 50%;
+      max-width: 50%;
+  } */
+}
+
+@media (min-width: 768px) {
+  .column {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+  }
+  
+  
+  .container-pkg1, 
+  .container-pkg2, 
+  .container-pkg3, 
+  .container-pkg4 {
+      flex: 0 0 calc(50% - 20px);
+      max-width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 992px) {
+  /* .column {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+} */
+.column {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+  .photoab {
+      flex: 0 0 40%;
+      max-width: 40%;
+  }
+  
+  .descriptionabout {
+      flex: 0 0 60%;
+      max-width: 60%;
+  }
+}
+
+/* Fix for social icons on mobile */
+@media (max-width: 768px) {
+  .social-icons-mobile {
+      right: 10px; /* Adjust this value as needed */
+  }
+}
+
+/* WhatsApp button fix */
+#whatsapp-button {
+  right: 20px; /* Adjust this value as needed */
+}
+
+button:focus, 
+a:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
